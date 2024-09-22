@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: black;
+    color:#f6f6f6;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 2% 0% 0% 10%;
+}
+
+.header-menu{
+    display: flex;
+    text-align: center;
+    gap: 80px;
+}
+
+.header-link{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    text-decoration: none;
+    color: aquamarine;
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 15%;
+    gap: 20px;
+}
+
+.presentacion-section-class{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.presentacion-contenido-titulo{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+}
+.presentacion-contenido-parrafo{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+}
+.img-class{
+    width: 488px;
+    height: 480px;
+    border-radius: 16px;   
+}
+.resaltar{
+    color:aquamarine;
+}
+
+.presentacion-enlaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.presentacion-enlaces-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 378px;
+    text-align: center;
+    padding: 21.5px 0;
+    border: 2px solid aquamarine;
+    border-radius: 8px;
+    text-decoration: none;
+    color:white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.presentacion-enlaces-link:hover{
+    background-color: aquamarine;
+}
+
+.subtitulo-presentacion-link{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.footer{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 21.5px 0;
+    color:black;
+}
