@@ -107,3 +107,10 @@ body{
     padding: 21.5px 0;
     color:black;
 }
+.icono {
+    width: 40px; 
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+  
