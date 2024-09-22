@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(83, 85, 85);
     color:#f6f6f6;
     box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ body{
     font-style: normal;
     font-size: 24px;
     text-decoration: none;
-    color: aquamarine;
+    color: rgb(185, 187, 186);
 }
 .presentacion{
     display: flex;
@@ -61,7 +61,7 @@ body{
     border-radius: 16px;   
 }
 .resaltar{
-    color:aquamarine;
+    color:rgb(32, 34, 33);
 }
 
 .presentacion-enlaces{
@@ -78,7 +78,7 @@ body{
     width: 378px;
     text-align: center;
     padding: 21.5px 0;
-    border: 2px solid aquamarine;
+    border: 2px solid rgb(185, 187, 186);
     border-radius: 8px;
     text-decoration: none;
     color:white;
@@ -88,7 +88,7 @@ body{
 }
 
 .presentacion-enlaces-link:hover{
-    background-color: aquamarine;
+    background-color: rgb(185, 187, 186);
 }
 
 .subtitulo-presentacion-link{
@@ -102,7 +102,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 24px;
-    background-color: aquamarine;
+    background-color: rgb(185, 187, 186);
     text-align: center;
     padding: 21.5px 0;
     color:black;
