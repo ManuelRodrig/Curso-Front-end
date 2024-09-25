@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(83, 85, 85);
+    background-color: #5b6cef;
     color:#f6f6f6;
     box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ body{
     font-style: normal;
     font-size: 24px;
     text-decoration: none;
-    color: rgb(185, 187, 186);
+    color: rgb(247, 252, 249);
 }
 .presentacion{
     display: flex;
@@ -108,8 +108,8 @@ body{
     color:black;
 }
 .icono {
-    width: 40px; 
-    height: 40px;
+    width: 60px; 
+    height: 60px;
     vertical-align: middle;
     margin-right: 8px;
 }
