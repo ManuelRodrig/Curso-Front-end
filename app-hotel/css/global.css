@@ -2,9 +2,9 @@
     /* Colors */
     --blanco: #fff;
     --negro: #000;
-    --neutral-c: #f5f5f5;
-    --gris-oscuro: #8c8c8c;
-    --grafito: #222;
+    --neutral-c: #bdb7b7;
+    --gris-oscuro: #333232;
+    --grafito: #f3ebeb;
     --rojo: #b81515;
 }
 
@@ -15,6 +15,7 @@
 
 body {
     margin: 0;
+    background-color: #070606;
 }
 
 a {

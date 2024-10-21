@@ -183,7 +183,7 @@ img {
     font-style: normal;
     font-weight: 700;
     line-height: 32px;
-    color: var(--blanco, #FFF);
+    color: var(--blanco, #3b3b3b);
 }
 
 .busca__categorias {
@@ -201,7 +201,7 @@ img {
     font-weight: 700;
     line-height: normal;
     border-radius: 8px;
-    background: var(--gris-claro, #F5F5F5);
+    background: var(--gris-claro, #020000);
     padding: 24px 16px;
     flex: 1;
     display: flex;
@@ -385,82 +385,4 @@ span.material-symbols-outlined {
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 16px;
-}
-
-/* Estilos para pantallas grandes (por defecto) */
-.elemento {
-    width: 768px; /* ancho fijo */
-    height: 6229px; /* alto fijo */
-    gap: 0px;
-    opacity: 1; /* Opacidad completa */
-}
-
-/* Estilos para pantallas medianas (tablets) */
-@media (max-width: 1024px) {
-    .elemento {
-        width: 90%; /* Ancho relativo */
-        height: auto; /* Alto adaptativo */
-        gap: 10px; /* Espacio entre elementos */
-        opacity: 0.9; /* Opacidad reducida */
-    }
-}
-
-/* Estilos para pantallas pequeñas (móviles) */
-@media (max-width: 768px) {
-    .elemento {
-        width: 100%; /* Ancho completo */
-        height: auto; /* Alto adaptativo */
-        gap: 10px; /* Espacio entre elementos */
-        opacity: 0.8; /* Opacidad reducida */
-    }
-}
-
-.elemento {
-    display: flex;
-    flex-direction: column; /* O row, dependiendo del diseño */
-    justify-content: center;
-    align-items: center;
-    width: 100%; /* Ancho adaptativo */
-    height: auto; /* Alto adaptativo */
-    gap: 10px; /* Espacio entre elementos */
-    opacity: 1; /* Opacidad completa */
-}
-
-/* Ajustes específicos para pantallas pequeñas */
-@media (max-width: 768px) {
-    .elemento {
-        gap: 5px; /* Menor espacio entre elementos */
-    }
-}
-
-/* Estilos por defecto (pantallas grandes) */
-.elemento {
-    width: 768px;
-    height: 6229px;
-    gap: 0px;
-    opacity: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Ajustes para pantallas medianas */
-@media (max-width: 1024px) {
-    .elemento {
-        width: 90%;
-        height: auto;
-        gap: 10px;
-        opacity: 0.9;
-    }
-}
-
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
-    .elemento {
-        width: 100%;
-        height: auto;
-        gap: 5px;
-        opacity: 0.8;
-    }
 }
